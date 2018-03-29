@@ -2,5 +2,5 @@
 
 
 interface Testable {
-    public function test();
+    public function test_();
 }
