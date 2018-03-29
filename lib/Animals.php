@@ -1,6 +1,6 @@
 <?php
 
-abstract class Animals {
+abstract class Animals implements Voiceble {
     /**
      *
      * @var string 
