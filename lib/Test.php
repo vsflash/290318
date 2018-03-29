@@ -1,16 +1,9 @@
 <?php
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+class Test implements Testable {
 
-/**
- * Description of Test
- *
- * @author web
- */
-class Test {
-    //put your code here
+    public function test() {
+        echo '<p>test method from Test class</p>';
+    }
+
 }
