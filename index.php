@@ -22,12 +22,13 @@ function caller(Testable $obj) {
 $obj1 = new Cat('cat', 'siams', 4);
 $obj2 = new Lion('cat', 'african', 10);
 
-$obj1->voice();
-$obj2->voice();
+//$obj1->voice();
+//$obj2->voice();
 
 $animalArr[] = $obj1;
 $animalArr[] = $obj2;
 
 foreach ($animalArr as $obj) {
     $obj->voice();
+    echo $obj;
 }
