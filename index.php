@@ -24,3 +24,10 @@ $obj2 = new Lion('cat', 'african', 10);
 
 $obj1->voice();
 $obj2->voice();
+
+$animalArr[] = $obj1;
+$animalArr[] = $obj2;
+
+foreach ($animalArr as $obj) {
+    $obj->voice();
+}
